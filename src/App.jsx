@@ -15,6 +15,7 @@ const RESUME = {
     React interface or a powerful .NET API, I bring a detail-oriented mindset and a
     passion for quality to every project.`,
   email: 'jenishj868@gmail.com',
+  phone: '+916379324485',
   github: 'https://github.com/jenishjerry21-ops',
   linkedin: 'https://www.linkedin.com/in/jenishs057?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=iso_app',
   stats: [
@@ -588,6 +589,16 @@ function Contact() {
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
                   Email Me
+                </a>
+                <a
+                  href={`tel:${RESUME.phone}`}
+                  className="contact-link call"
+                  id="contact-call-btn"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.35 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.84.57 2.8.69A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  Call Me
                 </a>
                 <a
                   href={RESUME.github}
